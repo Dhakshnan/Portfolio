@@ -54,7 +54,6 @@ export const Navbar = () => {
           ))}
         </div>
 
-
         {/* mobile nav */}
 
         <button
@@ -65,7 +64,6 @@ export const Navbar = () => {
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}{" "}
         </button>
 
-          
         <div
           className={cn(
             "fixed inset-0 bg-background/95 backdroup-blur-md z-40 flex flex-col items-center justify-center",
